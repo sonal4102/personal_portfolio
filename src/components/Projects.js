@@ -8,6 +8,7 @@ import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
 import projImg8 from "../assets/img/project-img8.png";
+import projImg9 from "../assets/img/project-img9.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -15,6 +16,13 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "E-Commerce Website",
+      description: "React-Redux Project",
+      imgUrl: projImg9,
+      gotoUrl:"https://sonalsingh-emart.netlify.app/"
+    },
+   
     {
       title: "Website",
       description: "College Project",
@@ -27,15 +35,15 @@ export const Projects = () => {
       imgUrl: projImg3,
       gotoUrl:"https://patilkaki.sonalsingh14.repl.co/#home"
     },
+  
+  ];
+  const projects2 = [
     {
       title: "ToDo List",
       description: "React Project",
       imgUrl: projImg1,
       gotoUrl:"https://github.com/sonal4102/todos-list.git"
     },
-   
-  ];
-  const projects2 = [
     {
       title: "Registration Form",
       description: "Using React",
@@ -48,12 +56,7 @@ export const Projects = () => {
       imgUrl: projImg6,
       gotoUrl:"https://www.linkedin.com/posts/sonal-singh-7899ab255_html-css-javascript-activity-7008005352478687232-Po67?utm_source=share&utm_medium=member_desktop"
     },
-    {
-      title: "Circular Bar",
-      description: "Using HTML & CSS",
-      imgUrl: projImg7,
-      gotoUrl:"https://www.linkedin.com/posts/sonal-singh-7899ab255_html-css-javascript-activity-7008076824970764288-BVMO?utm_source=share&utm_medium=member_desktop"
-    },
+   
     
    
   ];
